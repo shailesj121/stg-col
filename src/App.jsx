@@ -1,5 +1,5 @@
-import Footer from "./components/footer.jsx";
-import Header from "./components/header.jsx"
+import Footer from "./components/footer";
+import Header from "./components/header"
 import { Routes, Route, useLocation  } from 'react-router-dom';
 import Home from "./pages/Home.jsx";
 import NotFound from "./pages/Nopage.jsx";
