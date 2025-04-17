@@ -1,0 +1,15 @@
+@use "bootstrap/scss/functions";
+
+// Override container max-widths (Bootstrap 5 default breakpoints)
+$container-max-widths: (
+  sm: 570px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px,
+  xxl: 1440px // You can change these values as needed
+);
+
+// Step 3: Load the rest of Bootstrap using @use with "with" block
+@use "bootstrap/scss/bootstrap" with (
+  $container-max-widths: $container-max-widths
+);
