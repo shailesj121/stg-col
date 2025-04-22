@@ -34,27 +34,27 @@ function Footer(){
                     <Row>
                         <Col className="text-white sub-heading-2">© 2025 Pi Protocol</Col>
                         <Col>
-                            <div class="d-flex gap-4  justify-content-end">
+                            <div className="d-flex gap-4  justify-content-end">
                                 <span>
-                                    <a class="" href="https://t.me/Piprotocol_official" target="_blank">
+                                    <a className="" href="https://t.me/Piprotocol_official" target="_blank">
                                         <Image src="/src/assets/images/telegram.svg" width={19} />
                                     </a>
                                 </span>
 
                                 <span>
-                                    <a class="" href="https://discord.com/invite/8B5jWdbKSg" target="_blank">
+                                    <a className="" href="https://discord.com/invite/8B5jWdbKSg" target="_blank">
                                         <Image src="/src/assets/images/discord.svg"  width={22}  /> 
                                     </a>
                                 </span>
 
                                 <span>
-                                    <a class="" href="https://x.com/piprotocol" target="_blank">
+                                    <a className="" href="https://x.com/piprotocol" target="_blank">
                                         <Image src="/src/assets/images/twitter.svg"  width={18}  />
                                     </a>
                                 </span>
 
                                 <span>
-                                    <a class="" href="https://www.linkedin.com/company/piprotocol/" target="_blank">
+                                    <a className="" href="https://www.linkedin.com/company/piprotocol/" target="_blank">
                                         <Image src="/src//assets/images/linkedin.svg"  width={21} />
                                     </a>
                                 </span>

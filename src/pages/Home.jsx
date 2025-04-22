@@ -13,7 +13,7 @@ function Home(){
                 <section>
                     <Container fluid className='p-0 full-height position-relative'>
                         <motion.div  initial={{ opacity: 0}}  animate={{ opacity: 1}} transition={{ duration: 1 }} className='h-100 hero-video-container hero-bg-fliter'>
-                            <video src="/src/assets/images/home-hero-vid.mp4" className='w-100 h-100 object-fit-cover width-sm-lg-1200' autoPlay loop muted="muted" playsinline="" controlslist="nodownload"></video>
+                            <video src="/src/assets/images/home-hero-vid.mp4" className='w-100 h-100 object-fit-cover width-sm-lg-1200' autoPlay loop muted="muted" playsInline="" controlsList="nodownload"></video>
                         </motion.div>
                         <Row className='h-100 justify-content-center align-items-center text-center  position-relative'>
                             <Col>
@@ -22,7 +22,7 @@ function Home(){
                             </Col>
                         </Row>
                         <a href="#twoTokens" className='position-absolute bottom-60-px left-50'>
-                            <svg width="20" height="32" viewBox="0 0 20 32" fill="none" xmlns="http://www.w3.org/2000/svg"> <path class="arr-1" d="M18.3401 20.7647L19.9724 22.3985L11.0765 31.2976C10.9339 31.441 10.7644 31.5549 10.5777 31.6326C10.391 31.7103 10.1907 31.7502 9.98852 31.7502C9.78629 31.7502 9.58606 31.7103 9.39935 31.6326C9.21264 31.5549 9.04313 31.441 8.90059 31.2976L-4.08776e-07 22.3985L1.63229 20.7663L9.98621 29.1186L18.3401 20.7647Z" fill="#97C1F3"></path> <path class="arr-2" d="M18.3401 11.0001L19.9724 12.6339L11.0765 21.5329C10.9339 21.6764 10.7644 21.7902 10.5777 21.8679C10.391 21.9456 10.1907 21.9856 9.98852 21.9856C9.78629 21.9856 9.58606 21.9456 9.39935 21.8679C9.21264 21.7902 9.04313 21.6764 8.90059 21.5329L-4.08776e-07 12.6339L1.63229 11.0016L9.98621 19.354L18.3401 11.0001Z" fill="#97C1F3"></path> <path class="arr-3" d="M18.3401 7.07239e-05L19.9724 1.6339L11.0765 10.5329C10.9339 10.6764 10.7644 10.7902 10.5777 10.8679C10.391 10.9456 10.1907 10.9856 9.98852 10.9856C9.78629 10.9856 9.58606 10.9456 9.39935 10.8679C9.21264 10.7902 9.04313 10.6764 8.90059 10.5329L-4.08776e-07 1.6339L1.63229 0.00161068L9.98621 8.35399L18.3401 7.07239e-05Z" fill="#97C1F3"></path> </svg>
+                            <svg width="20" height="32" viewBox="0 0 20 32" fill="none" xmlns="http://www.w3.org/2000/svg"> <path className="arr-1" d="M18.3401 20.7647L19.9724 22.3985L11.0765 31.2976C10.9339 31.441 10.7644 31.5549 10.5777 31.6326C10.391 31.7103 10.1907 31.7502 9.98852 31.7502C9.78629 31.7502 9.58606 31.7103 9.39935 31.6326C9.21264 31.5549 9.04313 31.441 8.90059 31.2976L-4.08776e-07 22.3985L1.63229 20.7663L9.98621 29.1186L18.3401 20.7647Z" fill="#97C1F3"></path> <path className="arr-2" d="M18.3401 11.0001L19.9724 12.6339L11.0765 21.5329C10.9339 21.6764 10.7644 21.7902 10.5777 21.8679C10.391 21.9456 10.1907 21.9856 9.98852 21.9856C9.78629 21.9856 9.58606 21.9456 9.39935 21.8679C9.21264 21.7902 9.04313 21.6764 8.90059 21.5329L-4.08776e-07 12.6339L1.63229 11.0016L9.98621 19.354L18.3401 11.0001Z" fill="#97C1F3"></path> <path className="arr-3" d="M18.3401 7.07239e-05L19.9724 1.6339L11.0765 10.5329C10.9339 10.6764 10.7644 10.7902 10.5777 10.8679C10.391 10.9456 10.1907 10.9856 9.98852 10.9856C9.78629 10.9856 9.58606 10.9456 9.39935 10.8679C9.21264 10.7902 9.04313 10.6764 8.90059 10.5329L-4.08776e-07 1.6339L1.63229 0.00161068L9.98621 8.35399L18.3401 7.07239e-05Z" fill="#97C1F3"></path> </svg>
                         </a>
                     </Container>
                 </section>
@@ -35,7 +35,7 @@ function Home(){
                                 <p className='mx-width-900'>Pi Protocol splits the stablecoin game: USP holds your USD value, USI grows your earnings.Trade or spend USP anywhere, while USI works quietly to boost returns.</p>
                             </Col>
                         </Row>
-                        <video className='w-100' src="/src/assets/images/two-tokens-vid.mp4" autoplay="" loop="" muted="muted" playsinline="" controlslist="nodownload"></video>
+                        <video className='w-100' src="/src/assets/images/two-tokens-vid.mp4" autoPlay="" loop="" muted="muted" playsInline="" controlsList="nodownload"></video>
                     
                     </Container>
                 </section>
@@ -155,7 +155,7 @@ function Home(){
                     <Row className='justify-content-center'>
                         <Col md={5}>
                             <div>
-                                <video src="/src/assets/images/breaking-barriers.mp4" className='w-100 object-fit-contain' autoplay="" loop="" muted="muted" controlslist="nodownload"></video>
+                                <video src="/src/assets/images/breaking-barriers.mp4" className='w-100 object-fit-contain' autoPlay="" loop="" muted="muted" controlsList="nodownload"></video>
                             </div>
                         </Col>
                         <Col md={7} className='align-content-center'>

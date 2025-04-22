@@ -4,21 +4,21 @@ import { Button, Col, Row } from "react-bootstrap"
 function Form(){
     return(
         <form>
-    <div class="mb-4">
-      <input type="text" class="form-control bg-gray2 text-white ph-text-gray rounded-0 border-0 p-3 ph-opacity-50" id="name" placeholder="Name" />
+    <div className="mb-4">
+      <input type="text" className="form-control bg-gray2 text-white ph-text-gray rounded-0 border-0 p-3 ph-opacity-50" id="name" placeholder="Name" />
     </div>
     
-    <div class="mb-4">
-      <input type="email" class="form-control bg-gray2 text-white rounded-0 border-0 p-3 ph-opacity-50" id="email" placeholder="Email" />
+    <div className="mb-4">
+      <input type="email" className="form-control bg-gray2 text-white rounded-0 border-0 p-3 ph-opacity-50" id="email" placeholder="Email" />
     </div>
 
-    <div class="mb-4">
-      <input type="text" class="form-control bg-gray2 text-white ph-text-gray rounded-0 border-0 p-3 ph-opacity-50" id="company" placeholder="Company" />
+    <div className="mb-4">
+      <input type="text" className="form-control bg-gray2 text-white ph-text-gray rounded-0 border-0 p-3 ph-opacity-50" id="company" placeholder="Company" />
     </div>
     
     
-    <div class="mb-4">
-      <textarea class="form-control  bg-gray2 rounded-0 text-white border-0 p-3 ph-opacity-50" id="message" rows="4" placeholder="message"></textarea>
+    <div className="mb-4">
+      <textarea className="form-control  bg-gray2 rounded-0 text-white border-0 p-3 ph-opacity-50" id="message" rows="4" placeholder="message"></textarea>
     </div>
     
     <div className="glow-button-wrap justify-items-center ">
@@ -41,7 +41,7 @@ function Subscribe(event) {
     <form className="subscribe-form">
       <div className="bg-gray2 d-flex p-2 ps-3 rounded-2">
 
-     <input type="email" class="form-control no-border-focus text-white  ph-text-gray rounded-0 bg-transparent border-0 p-0 ph-opacity-50" id="email" placeholder="Your Email" />
+     <input type="email" className="form-control no-border-focus text-white  ph-text-gray rounded-0 bg-transparent border-0 p-0 ph-opacity-50" id="email" placeholder="Your Email" />
      <div className="glow-button-wrap justify-items-center">
                 <Button className="glow-button text-dark bg-light rounded-0  fw-semibold border-0 d-flex flex-column header-btn z-0">
                   <div className='overflow-hidden bg-light rounded-0 z-1 px-2 '>
