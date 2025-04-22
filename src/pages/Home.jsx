@@ -35,7 +35,7 @@ function Home(){
                                 <p className='mx-width-900'>Pi Protocol splits the stablecoin game: USP holds your USD value, USI grows your earnings.Trade or spend USP anywhere, while USI works quietly to boost returns.</p>
                             </Col>
                         </Row>
-                        <video className='w-100' src="/assets/images/two-tokens-vid.mp4" autoPlay="" loop="" muted="muted" playsInline="" controlsList="nodownload"></video>
+                        <video className='w-100' src="/assets/images/two-tokens-vid.mp4" autoPlay loop muted="muted" playsInline="" controlsList="nodownload"></video>
                     
                     </Container>
                 </section>
