@@ -32,9 +32,9 @@ function Footer(){
                     </Row>
                     <hr style={{ borderTop: '1px solid #ccc', margin: '1rem 0' }} className="mb-4"/>
                     <Row>
-                        <Col className="text-white sub-heading-2">© 2025 Pi Protocol</Col>
+                        <Col className="text-white sub-heading-2 align-content-center">© 2025 Pi Protocol</Col>
                         <Col>
-                            <div className="d-flex gap-4  justify-content-end">
+                            <div className="d-flex gap-3 gap-sm-4  justify-content-end">
                                 <span>
                                     <a className="" href="https://t.me/Piprotocol_official" target="_blank">
                                         <Image src="/assets/images/telegram.svg" width={19} />
