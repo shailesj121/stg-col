@@ -1,10 +1,5 @@
-import { Col, Container, Row, Nav } from "react-bootstrap";
+import { Col, Container, Row, Nav, Image } from "react-bootstrap";
 import { Link } from 'react-router-dom';
-import logo from '../../assets/images/piprotocol.svg'; // adjust path if needed
-import telegram from "../../assets/images/telegram.svg"
-import discord from "../../assets/images/discord.svg"
-import twitter from "../../assets/images/twitter.svg"
-import linkedin from "../../assets/images/linkedin.svg"
 import { Subscribe } from "../form";
 
 
@@ -12,11 +7,13 @@ import { Subscribe } from "../form";
 function Footer(){
     return (
         <footer className="py-md-5">
-            <section className="py-5">
-                <Container >
+            <section className="py-5 footer-section">
+                <Container fluid>
                     <Row className="pb-0 pb-sm-3">
                         <Col sm={6} className="col-12 text-center text-sm-start mb-5 mb-sm-0">
-                            <Nav.Link as={Link} to="/"><img as={Link} to="/" src={logo} className="mb-3"/></Nav.Link>
+                            <Nav.Link as={Link} to="/" className="d-inline-block"> 
+                                <Image src="/src/assets/images/piprotocol.svg" alt="Pi Potocol" className="mb-3"/>
+                            </Nav.Link>
                             <p className="p-16 mx-auto ms-sm-0" style={{maxWidth: '360px'}}>Pi Protocol is the evolution of the stablecoin ecosystem with its unique value propositions</p>
                             <Subscribe/>
                         </Col>
@@ -40,25 +37,25 @@ function Footer(){
                             <div class="d-flex gap-4  justify-content-end">
                                 <span>
                                     <a class="" href="https://t.me/Piprotocol_official" target="_blank">
-                                        <img src={telegram} width={19} />
+                                        <Image src="/src/assets/images/telegram.svg" width={19} />
                                     </a>
                                 </span>
 
                                 <span>
                                     <a class="" href="https://discord.com/invite/8B5jWdbKSg" target="_blank">
-                                        <img src={discord}  width={22}  /> 
+                                        <Image src="/src/assets/images/discord.svg"  width={22}  /> 
                                     </a>
                                 </span>
 
                                 <span>
                                     <a class="" href="https://x.com/piprotocol" target="_blank">
-                                        <img src={twitter}  width={18}  />
+                                        <Image src="/src/assets/images/twitter.svg"  width={18}  />
                                     </a>
                                 </span>
 
                                 <span>
                                     <a class="" href="https://www.linkedin.com/company/piprotocol/" target="_blank">
-                                        <img src={linkedin}  width={21} />
+                                        <Image src="/src//assets/images/linkedin.svg"  width={21} />
                                     </a>
                                 </span>
                             </div>

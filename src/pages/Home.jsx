@@ -1,22 +1,6 @@
-import { Container, Row, Col } from 'react-bootstrap';
-import herovideo from "../assets/images/home-hero-vid.mp4";
-import roadmapImage from "../assets/images/roadmap-image.svg";
-import twoTokenImage from "../assets/images/two-tokens-vid.mp4";
-import reeve from "../assets/images/reeve-collins.jpg";
-import bundeep from "../assets/images/bundeep.jpg";
-import pymnts from "../assets/images/pymnts.svg"
-import coinrepublics from "../assets/images/coin-republic.svg"
-import bloomberg from "../assets/images/bloomberg.svg"
-import breakingbarriers from "../assets/images/breaking-barriers.mp4"
-import flexible from "../assets/images/flexible1.svg"
-import transparent from "../assets/images/transparent1.svg"
-import secure from "../assets/images/secure1.svg"
-import innovate from "../assets/images/innovative1.svg"
-import rewarding from "../assets/images/rewarding1.svg"
-import scalable from "../assets/images/scalable1.svg"
+import { Container, Row, Col, Image } from 'react-bootstrap';
 import UnfairAdvantage from '../components/UnfairAdvantage';
 import { motion } from 'framer-motion';
-import heroShadow from '../assets/images/home-hero-shadow.svg';
 
 
 function Home(){
@@ -25,11 +9,11 @@ function Home(){
         <motion.div  initial={{ opacity: 0, y: 30 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5 }} className="main">
-            <section className='gradient-light' style={{background: `url(${heroShadow})`}}></section>
+            <section className='gradient-light' style={{background: `url("/src/assets/images/home-hero-shadow.svg")`}}></section>
                 <section>
                     <Container fluid className='p-0 full-height position-relative'>
                         <motion.div  initial={{ opacity: 0}}  animate={{ opacity: 1}} transition={{ duration: 1 }} className='h-100 hero-video-container hero-bg-fliter'>
-                            <video src={herovideo} className='w-100 h-100 object-fit-cover width-sm-lg-1200' autoPlay loop muted="muted" playsinline="" controlslist="nodownload"></video>
+                            <video src="/src/assets/images/home-hero-vid.mp4" className='w-100 h-100 object-fit-cover width-sm-lg-1200' autoPlay loop muted="muted" playsinline="" controlslist="nodownload"></video>
                         </motion.div>
                         <Row className='h-100 justify-content-center align-items-center text-center  position-relative'>
                             <Col>
@@ -51,7 +35,7 @@ function Home(){
                                 <p className='mx-width-900'>Pi Protocol splits the stablecoin game: USP holds your USD value, USI grows your earnings.Trade or spend USP anywhere, while USI works quietly to boost returns.</p>
                             </Col>
                         </Row>
-                        <video className='w-100' src={twoTokenImage} autoplay="" loop="" muted="muted" playsinline="" controlslist="nodownload"></video>
+                        <video className='w-100' src="/src/assets/images/two-tokens-vid.mp4" autoplay="" loop="" muted="muted" playsinline="" controlslist="nodownload"></video>
                     
                     </Container>
                 </section>
@@ -67,7 +51,7 @@ function Home(){
                     
                     <Col lg={3} md={6} className=' image-box col-6 hover-text-white mb-4 mb-lg-0'>
                         <div className='image-box-img position-relative image-box-img-1 mb-2'> 
-                            <img  src={roadmapImage} alt="" loading="lazy" width={273} height={317} fluid/>
+                            <Image  src="/src/assets/images/roadmap-image.svg" alt="" loading="lazy" width={273} height={317} fluid/>
                         </div>
                         <div className='text-gray3'>
                             <h3 className="fw-medium text-gray3">Q1 25</h3>
@@ -79,7 +63,7 @@ function Home(){
                     </Col>
                     <Col lg={3} md={6} className=' image-box col-6 hover-text-white mb-4 mb-lg-0'>
                     <div className='image-box-img position-relative image-box-img-2 mb-2'> 
-                        <img src={roadmapImage} alt="" loading="lazy" width={273} height={317} fluid/>
+                        <Image src="/src/assets/images/roadmap-image.svg" alt="" loading="lazy" width={273} height={317} fluid/>
                     </div>
                     <div className='text-gray3'>
                         <h3 className="fw-medium text-gray3">Q2 25</h3>
@@ -91,7 +75,7 @@ function Home(){
                     </Col>
                     <Col lg={3} md={6}  className=' image-box col-6 hover-text-white'>
                     <div className='image-box-img position-relative image-box-img-3 mb-2'> 
-                        <img src={roadmapImage} alt="" loading="lazy" width={273} height={317} fluid/>
+                        <Image src="/src/assets/images/roadmap-image.svg" alt="" loading="lazy" width={273} height={317} fluid/>
                     </div>
                     <div className='text-gray3'>
                         <h3 className="fw-medium text-gray3">Q3 25</h3>
@@ -103,7 +87,7 @@ function Home(){
                     </Col>
                     <Col lg={3} md={6} className=' image-box col-6 hover-text-white'>
                     <div className='image-box-img position-relative image-box-img-4 mb-2'> 
-                        <img src={roadmapImage} alt="" loading="lazy" width={273} height={317} fluid/>
+                        <Image src="/src/assets/images/roadmap-image.svg" alt="" loading="lazy" width={273} height={317} fluid/>
                     </div>
                     <div className='text-gray3'>
                         <h3 className="fw-medium text-gray3">Q4 25</h3>
@@ -134,7 +118,7 @@ function Home(){
                     <Col md={4} lg={3} className='px-3 mb-3 mb-md-0'>
                         <div className='image-box-wrapper rounded-4 bg-gray2  h-100 align-content-center text-center'>
                             <a href='https://www.thecoinrepublic.com/2025/02/20/tether-co-founder-reeve-collins-and-pi-protocols-new-usp-stablecoin-all-you-need-to-know/' target="_blank" rel="noopener"  className='d-block h-100 p-4 p-md-3 p-lg-4 align-content-center'  >
-                            <img src={pymnts} alt="" loading="lazy" fluid className='py-2'/>
+                            <Image src="/src/assets/images/pymnts.svg" alt="" loading="lazy" fluid className='py-2'/>
                             </a>
                         </div>
                     </Col>
@@ -142,7 +126,7 @@ function Home(){
                     <Col md={4} lg={3} className='px-3 mb-3 mb-md-0'>
                         <div className='image-box-wrapper rounded-4 bg-gray2 h-100 align-content-center text-center'>
                         <a href='https://www.bloomberg.com/news/articles/2025-02-18/tether-co-founder-is-working-on-yield-bearing-stablecoin-rival?srnd=homepage-europe' target="_blank" rel="noopener" className='d-block h-100 p-4 p-md-3 p-lg-4 align-content-center' >
-                            <img src={bloomberg} alt="" loading="lazy" fluid className='py-2'/>
+                            <Image src="/src/assets/images/bloomberg.svg" alt="" loading="lazy" fluid className='py-2'/>
                             </a>
                         </div>
                     </Col>
@@ -150,7 +134,7 @@ function Home(){
                     <Col md={4} lg={3} className='px-3 '>
                         <div className='image-box-wrapper rounded-4 bg-gray2 h-100 align-content-center text-center'>
                             <a href='https://www.thecoinrepublic.com/2025/02/20/tether-co-founder-reeve-collins-and-pi-protocols-new-usp-stablecoin-all-you-need-to-know/' target="_blank" rel="noopener" className='d-block h-100 p-4 p-md-3 p-lg-4 align-content-center' >
-                            <img src={coinrepublics} alt="" loading="lazy" fluid className='py-2'/>
+                                <Image src="/src/assets/images/coin-republic.svg" alt="" loading="lazy" fluid className='py-2'/>
                             </a>
                         </div>
                     </Col>
@@ -171,7 +155,7 @@ function Home(){
                     <Row className='justify-content-center'>
                         <Col md={5}>
                             <div>
-                                <video src={breakingbarriers} className='w-100 object-fit-contain' autoplay="" loop="" muted="muted" controlslist="nodownload"></video>
+                                <video src="/src/assets/images/breaking-barriers.mp4" className='w-100 object-fit-contain' autoplay="" loop="" muted="muted" controlslist="nodownload"></video>
                             </div>
                         </Col>
                         <Col md={7} className='align-content-center'>
@@ -179,7 +163,7 @@ function Home(){
                                 <Row className="flexibility-row">
                                     <Col className='px-sm-2 px-lg-4 mb-5 col-6'>
                                         <div className='text-center text-sm-start d-sm-flex align-items-start '>
-                                            <img src={flexible} className='mb-3' />
+                                            <Image src="/src/assets/images/flexible1.svg" className='mb-3' />
                                             <div className='ps-sm-3'>
                                                 <h3 className='m-0 mb-1 text-light fw-normal'>Flexible</h3>
                                                 <p  className='m-0 p'>Your choice of on chain yield assets</p>
@@ -188,7 +172,7 @@ function Home(){
                                     </Col>   
                                     <Col className='px-sm-2 px-lg-4 mb-5 col-6'>
                                         <div className='text-center text-sm-start d-sm-flex align-items-start '>
-                                            <img src={transparent} className='mb-3' />
+                                            <Image src="/src/assets/images/transparent1.svg" className='mb-3' />
                                             <div className='ps-sm-3'>
                                                 <h3 className='m-0 mb-1 text-light fw-normal'>Transparent</h3>
                                                 <p  className='m-0 p'>Visibility of collateral</p>
@@ -197,7 +181,7 @@ function Home(){
                                     </Col> 
                                     <Col className='px-sm-2 px-lg-4 mb-5 col-6'>
                                         <div className='text-center text-sm-start d-sm-flex align-items-start '>
-                                            <img src={secure} className='mb-3' />
+                                            <Image src="/src/assets/images/secure1.svg" className='mb-3' />
                                             <div className='ps-sm-3'>
                                                 <h3 className='m-0 mb-1 text-light fw-normal'>Secure</h3>
                                                 <p  className='m-0 p'>Minimal counterparty risk</p>
@@ -206,7 +190,7 @@ function Home(){
                                     </Col> 
                                     <Col className='px-sm-2 px-lg-4 mb-5 col-6'>
                                         <div className='text-center text-sm-start d-sm-flex align-items-start '>
-                                            <img src={innovate} className='mb-3' />
+                                            <Image src="/src/assets/images/innovative1.svg" className='mb-3' />
                                             <div className='ps-sm-3'>
                                                 <h3 className='m-0 mb-1 text-light fw-normal'>Innovative</h3>
                                                 <p  className='m-0 p'>Maximise yield without sacrificing utility</p>
@@ -215,7 +199,7 @@ function Home(){
                                     </Col> 
                                     <Col className='px-sm-2 px-lg-4 mb-5 col-6'>
                                         <div className='text-center text-sm-start d-sm-flex align-items-start '>
-                                            <img src={rewarding} className='mb-3' />
+                                            <Image src="/src/assets/images/rewarding1.svg" className='mb-3' />
                                             <div className='ps-sm-3'>
                                                 <h3 className='m-0 mb-1 text-light fw-normal'>Rewarding</h3>
                                                 <p  className='m-0 p'>Benefit from growing Pi ecosystem</p>
@@ -224,7 +208,7 @@ function Home(){
                                     </Col> 
                                     <Col className='px-sm-2 px-lg-4 mb-0 mb-sm-0 col-6'>
                                         <div className='text-center text-sm-start d-sm-flex align-items-start '>
-                                            <img src={scalable} className='mb-3' />
+                                            <Image src="/src/assets/images/scalable1.svg" className='mb-3' />
                                             <div className='ps-sm-3'>
                                                 <h3 className='m-0 mb-1 text-light fw-normal'>Scalable</h3>
                                                 <p  className='m-0 p'>Built for web 3 with robust governance</p>

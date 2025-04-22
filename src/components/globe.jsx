@@ -119,9 +119,12 @@ const Globe = () => {
     animate();
 
     const onResize = () => {
+      canvas.style.width = "100%";
+      canvas.style.height = "100%";
       const width = canvas.clientWidth;
       const height = canvas.clientHeight;
       camera.aspect = width / height;
+      
       camera.updateProjectionMatrix();
       renderer.setSize(width, height);
     };
@@ -139,12 +142,8 @@ const Globe = () => {
   }, []);
 
   return (
-    <motion.div  initial={{ opacity: 0}}  animate={{ opacity: 1}} transition={{ duration: .2 }}  className=" position-relative globe-wrapper align-item-center" style={{height: "100vh" }}>
-    <canvas
-      id="globeGl"
-      ref={canvasRef}
-      style={{ width: "100%", height:"100%", display: "block" }}
-    />
+    <motion.div  initial={{ opacity: 0}}  animate={{ opacity: 1}} transition={{ duration: .2 }}  className="h-100 h-md-auto position-relative globe-wrapper align-item-center" style={{height: "100vh" }}>
+      <canvas id="globeGl" ref={canvasRef}   style={{display: "block" }}/>
     </motion.div>
   );
 };

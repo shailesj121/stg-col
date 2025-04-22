@@ -1,7 +1,7 @@
 
 import bundeep from "../assets/images/bundeep.jpg";
 import reeve from "../assets/images/reeve-collins.jpg";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col, Image } from "react-bootstrap";
 
 function UnfairAdvantage(){
     
@@ -17,7 +17,7 @@ function UnfairAdvantage(){
                     <Col sm={6} className='px-2 lg-25-per mb-4 mb-sm-0'>
                         <div className='image-box-wrapper rounded-4 bg-gray p-4 h-100'>
                             <div className='mb-3'> 
-                                <img src={reeve} alt="" loading="lazy" className='w-100' fluid/>
+                                <Image src="/src/assets/images/reeve-collins.jpg" alt="Reeve" loading="lazy" className='w-100' fluid/>
                             </div>
                             <div>
                                 <h4 className="fw-bold gradient-color">Reeve Collins</h4>
@@ -33,7 +33,7 @@ function UnfairAdvantage(){
                     <Col sm={6}className='px-2 lg-25-per'>
                     <div className='image-box-wrapper rounded-4 bg-gray p-4 h-100'>
                             <div className='mb-3'> 
-                                <img src={bundeep} alt="" loading="lazy" className='w-100' fluid/>
+                                <Image src="/src/assets/images/bundeep.jpg" alt="Bundeep" loading="lazy" className='w-100' fluid/>
                             </div>
                             <div>
                                 <h4 className=" fw-bold gradient-color">Bundeep Singh Rangar</h4>

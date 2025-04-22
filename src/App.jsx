@@ -12,7 +12,6 @@ import { useEffect } from "react";
 function App() {
 
   const location = useLocation();
-
   useEffect(() => {
     window.scrollTo(0, 0);
   }, [location]);
@@ -21,7 +20,7 @@ function App() {
     <>
    <Header />
    <AnimatePresence mode="wait">
-   <Routes  location={location} key={location.pathname}>
+   <Routes location={location} key={location.pathname}>
         <Route path="/" element={<Home />} />
         <Route path="/vision" element={<Vision />} />
         <Route path="/insights" element={<Insights />} />
