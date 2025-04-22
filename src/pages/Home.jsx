@@ -155,7 +155,7 @@ function Home(){
                     <Row className='justify-content-center'>
                         <Col md={5}>
                             <div>
-                                <video src="/assets/images/breaking-barriers.mp4" className='w-100 object-fit-contain' autoPlay="" loop="" muted="muted" controlsList="nodownload"></video>
+                                <video src="/assets/images/breaking-barriers.mp4" className='w-100 object-fit-contain' autoPlay loop muted="muted" playsInline controlsList="nodownload"></video>
                             </div>
                         </Col>
                         <Col md={7} className='align-content-center'>
