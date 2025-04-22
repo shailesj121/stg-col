@@ -12,7 +12,7 @@ function Footer(){
                     <Row className="pb-0 pb-sm-3">
                         <Col sm={6} className="col-12 text-center text-sm-start mb-5 mb-sm-0">
                             <Nav.Link as={Link} to="/" className="d-inline-block"> 
-                                <Image src="/src/assets/images/piprotocol.svg" alt="Pi Potocol" className="mb-3"/>
+                                <Image src="/assets/images/piprotocol.svg" alt="Pi Potocol" className="mb-3"/>
                             </Nav.Link>
                             <p className="p-16 mx-auto ms-sm-0" style={{maxWidth: '360px'}}>Pi Protocol is the evolution of the stablecoin ecosystem with its unique value propositions</p>
                             <Subscribe/>
@@ -37,25 +37,25 @@ function Footer(){
                             <div className="d-flex gap-4  justify-content-end">
                                 <span>
                                     <a className="" href="https://t.me/Piprotocol_official" target="_blank">
-                                        <Image src="/src/assets/images/telegram.svg" width={19} />
+                                        <Image src="/assets/images/telegram.svg" width={19} />
                                     </a>
                                 </span>
 
                                 <span>
                                     <a className="" href="https://discord.com/invite/8B5jWdbKSg" target="_blank">
-                                        <Image src="/src/assets/images/discord.svg"  width={22}  /> 
+                                        <Image src="/assets/images/discord.svg"  width={22}  /> 
                                     </a>
                                 </span>
 
                                 <span>
                                     <a className="" href="https://x.com/piprotocol" target="_blank">
-                                        <Image src="/src/assets/images/twitter.svg"  width={18}  />
+                                        <Image src="/assets/images/twitter.svg"  width={18}  />
                                     </a>
                                 </span>
 
                                 <span>
                                     <a className="" href="https://www.linkedin.com/company/piprotocol/" target="_blank">
-                                        <Image src="/src//assets/images/linkedin.svg"  width={21} />
+                                        <Image src="/assets/images/linkedin.svg"  width={21} />
                                     </a>
                                 </span>
                             </div>

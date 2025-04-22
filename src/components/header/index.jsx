@@ -16,7 +16,7 @@ function Header() {
       <Container fluid className='header bg-dark rounded-5 py-2 px-2 px-lg-3'>
         <Navbar.Brand as={Link} to="/" className='p-0 m-0'>
           <Image
-            src="src/assets/images/piprotocol.svg"
+            src="/assets/images/piprotocol.svg"
             width="170"
             alt="Pi Protocol"
             className='brand-logo'
