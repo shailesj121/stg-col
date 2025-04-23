@@ -12,7 +12,7 @@ function Header() {
   };
 
   return (
-    <Navbar expanded={expanded} expand="xl" fixed="top" className='mt-3 px-2 px-sm-0'>
+    <Navbar expanded={expanded} expand="xl" fixed="top" className='mt-3 px-2'>
       <Container fluid className='header bg-dark rounded-5 py-2 px-2 px-lg-3'>
         <Navbar.Brand as={Link} to="/" className='p-0 m-0'>
           <Image

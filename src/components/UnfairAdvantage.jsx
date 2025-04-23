@@ -12,7 +12,7 @@ function UnfairAdvantage(){
                         </Col>
                     </Row>
                     <Row className='justify-content-center'>
-                    <Col sm={6} className='px-2 lg-25-per mb-4 mb-sm-0'>
+                    <Col sm={6} className='lg-25-per mb-4 mb-sm-0'>
                         <div className='image-box-wrapper rounded-4 bg-gray p-4 h-100'>
                             <div className='mb-3'> 
                                 <Image src="/assets/images/reeve-collins.jpg" alt="Reeve" loading="lazy" className='w-100' fluid/>
@@ -28,7 +28,7 @@ function UnfairAdvantage(){
                             </div>
                         </div>
                     </Col>
-                    <Col sm={6}className='px-2 lg-25-per'>
+                    <Col sm={6}className=' lg-25-per'>
                     <div className='image-box-wrapper rounded-4 bg-gray p-4 h-100'>
                             <div className='mb-3'> 
                                 <Image src="/assets/images/bundeep.jpg" alt="Bundeep" loading="lazy" className='w-100' fluid/>

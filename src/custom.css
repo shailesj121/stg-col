@@ -583,6 +583,9 @@ h1.contact, h1.vision{
       .footer-section, .header {
         width: 100%;
       } 
+      .header {
+        max-width: 100%;
+      }
 }
 
 @media (max-width: 575.48px) {
