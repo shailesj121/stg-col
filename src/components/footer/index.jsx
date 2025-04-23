@@ -25,7 +25,7 @@ function Footer(){
                                     <Nav.Link as={Link} to="/" className='text-gray p-0 mb-2 ff-poppins fw-normal ls-unset '>Home</Nav.Link>
                                     <Nav.Link as={Link} to="/contact" className='text-gray p-0 mb-2 ff-poppins fw-normal ls-unset'>Get in touch</Nav.Link>
                                     <Nav.Link as={Link} to="/insights" className='text-gray p-0  mb-2 ff-poppins fw-normal ls-unset'>Insights</Nav.Link>
-                                    <Nav.Link as={Link} to="https://docs.piprotocol.com/docs/Overview/introduction/" target="_blank" className='ext-gray p-0 ff-poppins fw-normal ls-unset'>Documentation</Nav.Link>
+                                    <Nav.Link as={Link} to="https://docs.piprotocol.com/Overview/introduction/" target="_blank" className='ext-gray p-0 ff-poppins fw-normal ls-unset'>Documentation</Nav.Link>
                                 </Nav>
                             </div>
                         </Col>

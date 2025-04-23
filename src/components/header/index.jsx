@@ -69,7 +69,7 @@ function Header() {
               as={Link}
               onClick={handleNavClick}
                target="_blank"
-              to="https://docs.piprotocol.com/docs/Overview/introduction/"
+              to="https://docs.piprotocol.com/Overview/introduction/"
               className='text-gray nav-link  w-100'
             >
               Documentation
