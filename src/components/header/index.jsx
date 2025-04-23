@@ -80,7 +80,7 @@ function Header() {
         {/* Button */}
         <Nav.Link as={Link} to="/contact" className="p-0">
           <div className="glow-button-wrap">
-            <Button className="glow-button text-dark bg-light rounded-5 fw-semibold border-0 d-flex flex-column header-btn z-0">
+            <Button onClick={handleNavClick} className="glow-button text-dark bg-light rounded-5 fw-semibold border-0 d-flex flex-column header-btn z-0">
               <div className='overflow-hidden bg-light rounded-5 z-1 '>
                 <span className="label-up">Start Exploring</span>
                 <span className="label-up">Start Exploring</span>
