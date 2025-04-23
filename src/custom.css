@@ -579,10 +579,14 @@ h1.contact, h1.vision{
       .section-padding-m-bottom {
         padding-bottom: 100px;
       }
+
+      .footer-section, .header {
+        width: 100%;
+      } 
 }
 
 @media (max-width: 575.48px) {
-    h1.contact{
+    h1.contact {
         text-align: center !important;
       }
 }
